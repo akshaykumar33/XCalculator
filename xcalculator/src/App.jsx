@@ -36,9 +36,8 @@ const hadleEvaluate=(inputs)=>{
       <div className="card">
        <h1>React Calculator</h1>
       
-       <div className='screen'>
-        {inputs}
-       </div>
+       <input type='text' value={inputs} className='screen'/>
+        
        <div>{val}</div>
        <div className='container'>
        {number.map((num,id)=>(
